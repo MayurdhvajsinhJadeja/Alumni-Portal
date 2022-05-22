@@ -1,0 +1,84 @@
+.row {
+    display: flex;
+}
+
+.row-space {
+  margin-left: 10%;
+}
+
+.row_space_2 {
+    margin-left: 10%;
+}
+
+button {
+    outline: none;
+    background: none;
+    border: none;
+}
+
+body {
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.btn {
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 50px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+}
+  
+.btn--blue {
+    background: #4272d7;
+}
+  
+input {
+    outline: none;
+    margin: 0;
+    border: none;
+    box-shadow: none;    
+    font-size: 14px;
+    font-family: inherit;
+    line-height: 50px;
+    background: #8785c53f;
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.label {
+    font-size: 16px;
+    color: #555;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.input-group {
+    position: relative;
+    margin-bottom: 22px;
+}       
+  
+.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: #525252;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.card-4 .card-body {
+    padding: 57px 65px;
+    padding-bottom: 65px;
+}

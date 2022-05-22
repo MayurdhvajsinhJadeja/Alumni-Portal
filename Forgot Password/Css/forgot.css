@@ -1,0 +1,131 @@
+* {
+  margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+img {
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.main_div {
+  width: 100%;  
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: -webkit-linear-gradient(-135deg, #2b5a68,  #6bd16b);
+  background: -o-linear-gradient(-135deg, #4158d0,  #6bd16b);  
+  background: -moz-linear-gradient(-135deg, #4158d0,  #6bd16b);
+  background: linear-gradient(-135deg, #4158d0,  #6bd16b);
+}
+
+.main_div1 {
+  width: 960px;
+  background: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 100px 33px 95px;
+}
+
+.login_form {
+  border: 1px solid;
+  width: 120%;
+  height: 90%;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 5px 10px rgb(46, 27, 97);
+}
+
+.login_form_title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 28px;
+  color: black;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.text_filed {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  border: none;
+  color: #000000;
+  background: #e6e6e6;
+  display: block;
+  width: 88%;
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px 0 65px;
+  margin-left: 20px;
+}
+
+#text_filed_space {
+  margin-top: 10px;
+}
+
+.login_btn_space {
+  margin-top: 50px;
+}
+
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+.login_btn {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: #fff;
+  width: 70%;
+  height: 50px;
+  border-radius: 25px;
+  background: #57b846;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  margin-left: 50px;
+}
+
+.forgot {
+  margin-left: 120px;
+  margin-top: 17px;
+} 
+
+.login_btn:hover {
+  background: #32723a;
+}
+
+/* TextFiled ICON and Symbols */
+.input_icon{
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 10px;
+}
+
+.import_symbol {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  border-radius: 25px;
+  bottom: 0;
+  left: 5;
+  width: 100%;
+  height: 100%;
+  padding-left: 35px;
+  pointer-events: none;
+  color: #000000;
+}
+
+/* @media screen and (max-width: 470px) {
+  .column {
+    width: 50%;
+  }
+
+} */
